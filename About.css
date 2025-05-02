@@ -1,0 +1,255 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+                /* navbar started */
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.logo img{
+    width: 140px;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navlinks li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn1{
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 125px;
+    font-size: 14px;
+    
+}
+.btn2{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 105px;
+    font-size: 14px;
+    
+}
+.dots{
+    /* color: white; */
+    align-items: center;
+    /* justify-content:center; */
+
+    
+}
+.dots p{
+    display: grid;
+    color: white;
+    font-size: 20px;
+    margin: -25px;
+    margin-top: 11px;
+}
+@media (max-width: 765px){
+    .navlinks{
+        display: none;
+    }
+}
+@media (max-width: 200px){
+    .logo{
+        display: none;
+    }
+}
+
+
+                /* navbar Ended */
+ 
+                /* Introduction started  */
+
+.introducton{
+    color: white;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.introducton h1{
+    font-size: 25px;
+    padding-top: 25px;
+}
+.introducton p{
+    font-size: 12px;
+    padding-top: 15px;
+
+
+}
+                /* introduction ended */
+
+                /* Salt'n pepper Resturant started  */
+
+ .Resturant{
+    display: flex;
+    color: white;
+    padding-top: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+.Resturant h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Resturant p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.Resturant-img img{
+    height: 220px;
+    width: 500px;
+}
+
+.frenchise-resturant{
+    color: white;
+    padding-top: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.frenchise-resturant h1{
+    font-size: 20px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.frenchise-resturant h2{
+    font-size: 17px;
+    padding-top: 8px;
+}
+.Express{
+    color: white;
+    padding-top: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.Express h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Express h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Express h1 span{
+    font-size: 20px;
+}
+.Express p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+                /* Salt'n pepper Resturant ended  */
+
+                                 
+                /* footer started  */
+.footer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    background-color: black;
+    
+}
+.logo{
+    width: 20%;
+    text-align: start;
+}
+.logo img{
+    width: 50%;
+    
+}
+.logo p{
+    font-size: 12px;
+}
+.p{
+    padding-top: 131px;
+}
+
+.links{
+    width: 20%;
+}
+.links h1{
+    font-size: 15px;
+    
+}
+.links p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.contact{
+    width: 20%;
+}
+.contact h1{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.contact P{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.FollowUs{
+    width: 20%;
+    
+}
+.FollowUs h1{
+font-size: 15px;
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    
+}
+.btn-1 p{
+    font-size: 12px;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-2 p{
+    font-size: 12px;
+}
+.p-1{
+    padding-top: 220px;
+    font-size: 12px;
+}
+
+
+                /* footer ended  */
+
